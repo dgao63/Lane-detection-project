@@ -1,15 +1,13 @@
 ## Lane Detection Project
 
+
 The goal of this project is to create a pipeline for detecting lanes in a video. 
 
 The pipeline includes:
 
 Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
-
 Apply a distortion correction to raw video frames.
-
 Use color transforms, gradients, etc., to create a thresholded binary image.
-
 Apply a perspective transform to rectify the binary image to bird eye view.
 
 Detect lane pixels and fit to find the lane boundary.
